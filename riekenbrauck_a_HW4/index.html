@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Video stuff</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <section class="wrapper">
+
+    <video  muted poster="images/vid1_large.png">
+  <source src="video/mini_1.mp4" type="Video/mp4">
+  <source src="video/mini_1.mp4" type="Video/ogg">
+  <source src="video/mini_1.mp4" type="Video/webm">
+Your broswer doesn't support video. Dont use IE or edge.
+    <!--need multtople sources to work cross browser
+    for older ios devices, mp4 has to be the firt source-->
+    </video>
+<button>pause</button>
+<button>play</button>
+<button>rewind</button>
+  </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
